@@ -1,3 +1,3 @@
 # docs
 
-Go to the github pages: [https://pages.github.ibm.com/ClientEngineeringJapan/docs/](https://pages.github.ibm.com/ClientEngineeringJapan/docs/)
+Go to the github pages: [https://yasuki0707.github.io/kubernetes-study/](https://yasuki0707.github.io/kubernetes-study/)
