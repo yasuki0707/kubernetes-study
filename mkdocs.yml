@@ -5,8 +5,9 @@ nav:
   # - setting.md
   # - customize.md
   # - faq.md
-  - Service: kubernetes-study-service.md
-  - Ingress: kubernetes-study-ingress.md
+  - Title: title.md
+  - Service: service.md
+  - Ingress: ingress.md
 
 # metadata
 site_name: Docs
