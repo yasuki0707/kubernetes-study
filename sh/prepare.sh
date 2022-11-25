@@ -3,9 +3,8 @@
 search_dir=.
 for entry in "$search_dir"/*
 do
-    if [ $entry != "./site" -a $entry != "./sh" -a $entry != "Makefile" ]
+    if [ $entry != "./site" -a $entry != "./sh" -a $entry != "./Makefile" ]
     then
-        # echo $entry
         rm -rf $entry
     fi
 done
