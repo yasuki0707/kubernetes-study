@@ -8,6 +8,9 @@ nav:
   - Title: title.md
   - Service: service.md
   - Ingress: ingress.md
+  - Helm: helm.md
+  - Kustomize: kustomize.md
+  - Monitoring: monitoring.md
 
 # metadata
 site_name: Docs
