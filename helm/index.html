@@ -13,7 +13,7 @@
     
     
       
-        <title>Title - Docs</title>
+        <title>Helm - Docs</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#kubernetes" class="md-skip">
+        <a href="#helm" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Title
+              Helm
             
           </span>
         </div>
@@ -229,59 +229,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Title
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../title/" class="md-nav__link">
         Title
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目次">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目次
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#2022915" class="md-nav__link">
-    2022/9/15
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kubernetes-67-611p228-p268" class="md-nav__link">
-    Kubernetes 完全ガイド(紙版) 6.7 ~ 6.11(P228 ~ P268)
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -322,11 +274,154 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../helm/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Helm
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Helm
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    背景
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#helm_1" class="md-nav__link">
+    Helm とは
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#helm_2" class="md-nav__link">
+    Helm の使用法
+  </a>
+  
+    <nav class="md-nav" aria-label="Helm の使用法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    インストール
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#helm_3" class="md-nav__link">
+    Helm リポジトリ追加
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search" class="md-nav__link">
+    Search
+  </a>
+  
+    <nav class="md-nav" aria-label="Search">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#helm-search-repo" class="md-nav__link">
+    helm search repo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#helm-search-hub" class="md-nav__link">
+    helm search hub
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chart" class="md-nav__link">
+    Chart
+  </a>
+  
+    <nav class="md-nav" aria-label="Chart">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    インストール
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#release" class="md-nav__link">
+    Release
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chart_1" class="md-nav__link">
+    独自 Chart の作成
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chart-helm" class="md-nav__link">
+    Chart のパッケージ化と Helm リポジトリの公開
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -388,16 +483,111 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#2022915" class="md-nav__link">
-    2022/9/15
+  <a href="#_1" class="md-nav__link">
+    背景
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#kubernetes-67-611p228-p268" class="md-nav__link">
-    Kubernetes 完全ガイド(紙版) 6.7 ~ 6.11(P228 ~ P268)
+  <a href="#helm_1" class="md-nav__link">
+    Helm とは
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#helm_2" class="md-nav__link">
+    Helm の使用法
+  </a>
+  
+    <nav class="md-nav" aria-label="Helm の使用法">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    インストール
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#helm_3" class="md-nav__link">
+    Helm リポジトリ追加
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search" class="md-nav__link">
+    Search
+  </a>
+  
+    <nav class="md-nav" aria-label="Search">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#helm-search-repo" class="md-nav__link">
+    helm search repo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#helm-search-hub" class="md-nav__link">
+    helm search hub
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chart" class="md-nav__link">
+    Chart
+  </a>
+  
+    <nav class="md-nav" aria-label="Chart">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    インストール
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#release" class="md-nav__link">
+    Release
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chart_1" class="md-nav__link">
+    独自 Chart の作成
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chart-helm" class="md-nav__link">
+    Chart のパッケージ化と Helm リポジトリの公開
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -416,9 +606,110 @@
                   
 
 
-<h1 id="kubernetes">Kubernetes 勉強会<a class="headerlink" href="#kubernetes" title="Permanent link">#</a></h1>
-<h2 id="2022915">2022/9/15<a class="headerlink" href="#2022915" title="Permanent link">#</a></h2>
-<h2 id="kubernetes-67-611p228-p268">Kubernetes 完全ガイド(紙版) 6.7 ~ 6.11(P228 ~ P268)<a class="headerlink" href="#kubernetes-67-611p228-p268" title="Permanent link">#</a></h2>
+<h1 id="helm">Helm<a class="headerlink" href="#helm" title="Permanent link">#</a></h1>
+<h2 id="_1">背景<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
+<p>Kubernetes では、基本的には YAML 形式のマニフェストファイルを <code>kuberctl apply</code> していくことでクラスタの構成や管理を行う。<br />
+しかし、システムが大規模になってくるとマニフェスト地獄になり、再利用や一括変更などが困難になる。<br />
+そこで、これらマニフェストを汎用化し、マニフェストファイルの管理を容易にするためのツールの重要性が出てきた。
+ここで紹介する Helm と Kustomize をうまく使うことで、この目的を達成できるようになる。</p>
+<h2 id="helm_1">Helm とは<a class="headerlink" href="#helm_1" title="Permanent link">#</a></h2>
+<p>Kubernetes の<strong>パッケージマネージャ</strong>。
+アプリケーションの構築などをコマンド一発で実現可能だったりする。</p>
+<h2 id="helm_2">Helm の使用法<a class="headerlink" href="#helm_2" title="Permanent link">#</a></h2>
+<h3 id="_2"><a href="https://helm.sh/docs/intro/install/">インストール</a><a class="headerlink" href="#_2" title="Permanent link">#</a></h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>$ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>$ chmod <span class="m">700</span> get_helm.sh
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a>$ ./get_helm.sh
+</code></pre></div></td></tr></table></div>
+<p>Helm はクライアント側で処理を行うため、kubectl と同じ認証情報を利用する(<code>~/.kube/config</code>)。<br />
+<code>helm help</code> で Helm のさまざまなコマンドを確認できる。</p>
+<h3 id="helm_3">Helm リポジトリ追加<a class="headerlink" href="#helm_3" title="Permanent link">#</a></h3>
+<h3 id="search">Search<a class="headerlink" href="#search" title="Permanent link">#</a></h3>
+<p>リポジトリや Helm Hub 上の Chart を検索する。</p>
+<h4 id="helm-search-repo">helm search repo<a class="headerlink" href="#helm-search-repo" title="Permanent link">#</a></h4>
+<p>すでに追加されているリポジトリから Chart を検索する。</p>
+<p>リポジトリの追加は以下コマンド</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>helm repo add &lt;name&gt; &lt;url&gt; &lt;flags&gt;
+</code></pre></div></td></tr></table></div>
+<p>追加したら そのリポジトリ上の Chart を検索する。<br />
+<code>keyword</code> は、Chart 名及び Description の内容の部分一致検索。<br />
+<strong>デフォルトでは、最新の stable バージョンがヒットする。</strong></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a>helm search repo &lt;keyword&gt; &lt;flags&gt;
+</code></pre></div></td></tr></table></div>
+<h4 id="helm-search-hub">helm search hub<a class="headerlink" href="#helm-search-hub" title="Permanent link">#</a></h4>
+<p><a href="https://artifacthub.io/">Helm Hub</a> 及び自分 Hub インスタンスから Chart を検索する。</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a>helm search hub &lt;keyword&gt; &lt;flags&gt;
+</code></pre></div></td></tr></table></div>
+<h3 id="chart">Chart<a class="headerlink" href="#chart" title="Permanent link">#</a></h3>
+<p>deb, rpm に相当するパッケージ。Kubernetes のマニフェストのテンプレートをまとめたもの。</p>
+<h4 id="_3">インストール<a class="headerlink" href="#_3" title="Permanent link">#</a></h4>
+<p>色々パターンあるみたいです。</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span>
+<span class="normal"><a href="#__codelineno-4-2">2</a></span>
+<span class="normal"><a href="#__codelineno-4-3">3</a></span>
+<span class="normal"><a href="#__codelineno-4-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a>helm install &lt;release_name&gt; &lt;chart_nmae&gt; <span class="se">\</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a>--vetsion x.y.z <span class="se">\ </span><span class="c1"># バージョン指定</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3"></a>--set <span class="nv">username</span><span class="o">=</span>fuga <span class="se">\ </span><span class="c1"># 設定値を上書いてインストール</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4"></a>--set <span class="nv">password</span><span class="o">=</span>hoge <span class="se">\ </span><span class="c1"># 設定値を上書いてインストール</span>
+</code></pre></div></td></tr></table></div>
+<p>コマンドで直接 set もできるし、あらかじめ設定項目を上書いたファイル(<code>values.yaml</code>)を用意してそれを適用することもできる。</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1">1</a></span>
+<span class="normal"><a href="#__codelineno-5-2">2</a></span>
+<span class="normal"><a href="#__codelineno-5-3">3</a></span>
+<span class="normal"><a href="#__codelineno-5-4">4</a></span>
+<span class="normal"><a href="#__codelineno-5-5">5</a></span>
+<span class="normal"><a href="#__codelineno-5-6">6</a></span>
+<span class="normal"><a href="#__codelineno-5-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="c1"># values.yaml を吐き出す</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2"></a>helm show values &lt;chart_name&gt; &gt; values.yaml
+<a id="__codelineno-5-3" name="__codelineno-5-3"></a>
+<a id="__codelineno-5-4" name="__codelineno-5-4"></a><span class="c1"># values.yaml を適宜編集</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5"></a>
+<a id="__codelineno-5-6" name="__codelineno-5-6"></a>helm install &lt;release_name&gt; &lt;chart_nmae&gt; <span class="se">\</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7"></a>--values values.yaml
+</code></pre></div></td></tr></table></div>
+<p>もちろん、パスワードとかは values.yaml に記述しないでね ★</p>
+<h3 id="release">Release<a class="headerlink" href="#release" title="Permanent link">#</a></h3>
+<p>Chart をインストールした時のインスタンス? のようなイメージ?。<br />
+Chart と 1:N の関係(1 つの Chart に対して複数の Release が存在しうる)。</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span>
+<span class="normal"><a href="#__codelineno-6-2">2</a></span>
+<span class="normal"><a href="#__codelineno-6-3">3</a></span>
+<span class="normal"><a href="#__codelineno-6-4">4</a></span>
+<span class="normal"><a href="#__codelineno-6-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="c1"># インストール済みの Release の確認</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2"></a>helm list
+<a id="__codelineno-6-3" name="__codelineno-6-3"></a>
+<a id="__codelineno-6-4" name="__codelineno-6-4"></a><span class="c1"># Release のアンインストール</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5"></a>helm uninstall &lt;release_name&gt;
+</code></pre></div></td></tr></table></div>
+<h3 id="chart_1">独自 Chart の作成<a class="headerlink" href="#chart_1" title="Permanent link">#</a></h3>
+<p>単に Helm を利用してクラスターへのアプリケーション環境の構築を行うだけなら不要。<br />
+自分で Chart を作成することで、自分好みの設定・環境を構築することが可能となる。</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1"></a>helm create &lt;chart_name&gt;
+</code></pre></div></td></tr></table></div>
+<p>新規作成時、デフォルトで、Deployment, Service, Ingress, HPA, ServiceAccount のリソーステンプレートが作成される。<br />
+注意点として、Helm では Kubernetes のバージョンアップに追従する機能はないため、自分で Chart のマニフェストのメンテナンスを行う必要がある。</p>
+<p>参考: <a href="https://qiita.com/thinksphere/items/5f3e918015cf4e63a0bc">Helm の概要と Chart(チャート)の作り方</a></p>
+<h3 id="chart-helm">Chart のパッケージ化と Helm リポジトリの公開<a class="headerlink" href="#chart-helm" title="Permanent link">#</a></h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-8-1">1</a></span>
+<span class="normal"><a href="#__codelineno-8-2">2</a></span>
+<span class="normal"><a href="#__codelineno-8-3">3</a></span>
+<span class="normal"><a href="#__codelineno-8-4">4</a></span>
+<span class="normal"><a href="#__codelineno-8-5">5</a></span>
+<span class="normal"><a href="#__codelineno-8-6">6</a></span>
+<span class="normal"><a href="#__codelineno-8-7">7</a></span>
+<span class="normal"><a href="#__codelineno-8-8">8</a></span>
+<span class="normal"><a href="#__codelineno-8-9">9</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1"></a><span class="c1"># requirement.yaml を元に Chart をパッケージ化する(.tgz)</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2"></a>helm package --dependency-update &lt;package_name&gt;
+<a id="__codelineno-8-3" name="__codelineno-8-3"></a><span class="c1"># &lt;package_name.tgz&gt; will be created</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4"></a>
+<a id="__codelineno-8-5" name="__codelineno-8-5"></a><span class="c1"># 公開する Web サーバーのディレクトリに tgz を配置する</span>
+<a id="__codelineno-8-6" name="__codelineno-8-6"></a>
+<a id="__codelineno-8-7" name="__codelineno-8-7"></a><span class="c1"># Helm リポジトリの index を作成</span>
+<a id="__codelineno-8-8" name="__codelineno-8-8"></a>helm repo index .
+<a id="__codelineno-8-9" name="__codelineno-8-9"></a><span class="c1"># あとは helm repo add でリポジトリの追加が行える状態になっている。</span>
+</code></pre></div></td></tr></table></div>
 
 
 
@@ -440,15 +731,30 @@
     
     <nav class="md-footer__inner md-grid" aria-label="フッター" >
       
+        
+        <a href="../ingress/" class="md-footer__link md-footer__link--prev" aria-label="前: Ingress" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                前
+              </span>
+              Ingress
+            </div>
+          </div>
+        </a>
+      
       
         
-        <a href="../service/" class="md-footer__link md-footer__link--next" aria-label="次: Service" rel="next">
+        <a href="../kustomize/" class="md-footer__link md-footer__link--next" aria-label="次: Kustomize" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 次
               </span>
-              Service
+              Kustomize
             </div>
           </div>
           <div class="md-footer__button md-icon">
